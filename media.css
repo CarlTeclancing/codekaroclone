@@ -1,0 +1,27 @@
+@media screen and (max-width: 999px) {
+    ul{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        text-decoration: none;
+        display: none;
+    }
+    .close{
+        display: inline;
+    }
+  }
+@media screen and (max-width: 1300px) {
+    .card{
+        width: 80%;
+        height: auto;
+        border: none;
+        margin: 200px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 10px;
+        margin-top: 80px;
+    }
+}
